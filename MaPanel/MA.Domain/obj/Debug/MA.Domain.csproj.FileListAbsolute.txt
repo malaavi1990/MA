@@ -1,0 +1,6 @@
+E:\MA PROJECTS\MAIN\MaPanel\MA.Domain\bin\Debug\MA.Domain.dll
+E:\MA PROJECTS\MAIN\MaPanel\MA.Domain\bin\Debug\MA.Domain.pdb
+E:\MA PROJECTS\MAIN\MaPanel\MA.Domain\obj\Debug\MA.Domain.csprojAssemblyReference.cache
+E:\MA PROJECTS\MAIN\MaPanel\MA.Domain\obj\Debug\MA.Domain.csproj.CoreCompileInputs.cache
+E:\MA PROJECTS\MAIN\MaPanel\MA.Domain\obj\Debug\MA.Domain.dll
+E:\MA PROJECTS\MAIN\MaPanel\MA.Domain\obj\Debug\MA.Domain.pdb

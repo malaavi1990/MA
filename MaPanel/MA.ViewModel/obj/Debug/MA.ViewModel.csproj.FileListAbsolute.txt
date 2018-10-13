@@ -1,0 +1,6 @@
+E:\MA PROJECTS\MAIN\MaPanel\MA.ViewModel\bin\Debug\MA.ViewModel.dll
+E:\MA PROJECTS\MAIN\MaPanel\MA.ViewModel\bin\Debug\MA.ViewModel.pdb
+E:\MA PROJECTS\MAIN\MaPanel\MA.ViewModel\obj\Debug\MA.ViewModel.csprojAssemblyReference.cache
+E:\MA PROJECTS\MAIN\MaPanel\MA.ViewModel\obj\Debug\MA.ViewModel.csproj.CoreCompileInputs.cache
+E:\MA PROJECTS\MAIN\MaPanel\MA.ViewModel\obj\Debug\MA.ViewModel.dll
+E:\MA PROJECTS\MAIN\MaPanel\MA.ViewModel\obj\Debug\MA.ViewModel.pdb

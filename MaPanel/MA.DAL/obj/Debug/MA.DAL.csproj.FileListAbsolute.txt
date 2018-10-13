@@ -1,0 +1,2 @@
+E:\MA PROJECTS\MAIN\MaPanel\MA.DAL\obj\Debug\MA.DAL.csprojAssemblyReference.cache
+E:\MA PROJECTS\MAIN\MaPanel\MA.DAL\obj\Debug\MA.DAL.csproj.CoreCompileInputs.cache

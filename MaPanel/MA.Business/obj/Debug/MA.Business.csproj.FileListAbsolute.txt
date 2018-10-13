@@ -1,0 +1,6 @@
+E:\MA PROJECTS\MAIN\MaPanel\MA.Business\bin\Debug\MA.Business.dll
+E:\MA PROJECTS\MAIN\MaPanel\MA.Business\bin\Debug\MA.Business.pdb
+E:\MA PROJECTS\MAIN\MaPanel\MA.Business\obj\Debug\MA.Business.csprojAssemblyReference.cache
+E:\MA PROJECTS\MAIN\MaPanel\MA.Business\obj\Debug\MA.Business.csproj.CoreCompileInputs.cache
+E:\MA PROJECTS\MAIN\MaPanel\MA.Business\obj\Debug\MA.Business.dll
+E:\MA PROJECTS\MAIN\MaPanel\MA.Business\obj\Debug\MA.Business.pdb

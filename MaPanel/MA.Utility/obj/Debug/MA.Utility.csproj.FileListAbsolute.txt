@@ -1,0 +1,5 @@
+E:\MA PROJECTS\MAIN\MaPanel\MA.Utility\bin\Debug\MA.Utility.dll
+E:\MA PROJECTS\MAIN\MaPanel\MA.Utility\bin\Debug\MA.Utility.pdb
+E:\MA PROJECTS\MAIN\MaPanel\MA.Utility\obj\Debug\MA.Utility.csproj.CoreCompileInputs.cache
+E:\MA PROJECTS\MAIN\MaPanel\MA.Utility\obj\Debug\MA.Utility.dll
+E:\MA PROJECTS\MAIN\MaPanel\MA.Utility\obj\Debug\MA.Utility.pdb

@@ -1,0 +1,6 @@
+E:\MA PROJECTS\MAIN\MaPanel\MA.UnitTest\bin\Debug\MA.UnitTest.dll
+E:\MA PROJECTS\MAIN\MaPanel\MA.UnitTest\bin\Debug\MA.UnitTest.pdb
+E:\MA PROJECTS\MAIN\MaPanel\MA.UnitTest\obj\Debug\MA.UnitTest.csprojAssemblyReference.cache
+E:\MA PROJECTS\MAIN\MaPanel\MA.UnitTest\obj\Debug\MA.UnitTest.csproj.CoreCompileInputs.cache
+E:\MA PROJECTS\MAIN\MaPanel\MA.UnitTest\obj\Debug\MA.UnitTest.dll
+E:\MA PROJECTS\MAIN\MaPanel\MA.UnitTest\obj\Debug\MA.UnitTest.pdb
