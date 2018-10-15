@@ -49,12 +49,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\GenericDal.cs" />
+    <Compile Include="Classes\RoleDal.cs" />
+    <Compile Include="Classes\UserDal.cs" />
+    <Compile Include="Configurations\RoleConfig.cs" />
+    <Compile Include="Configurations\UserConfig.cs" />
+    <Compile Include="Interfaces\IGenericDal.cs" />
+    <Compile Include="Interfaces\IRoleDal.cs" />
+    <Compile Include="Interfaces\IUserDal.cs" />
+    <Compile Include="Migrations\201810141427512_CreateDatabase.cs" />
+    <Compile Include="Migrations\201810141427512_CreateDatabase.Designer.cs">
+      <DependentUpon>201810141427512_CreateDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnitOfWork\DataContext.cs" />
     <Compile Include="UnitOfWork\UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -64,8 +79,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Classes\" />
-    <Folder Include="Interfaces\" />
+    <Folder Include="Seeds\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201810141427512_CreateDatabase.resx">
+      <DependentUpon>201810141427512_CreateDatabase.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

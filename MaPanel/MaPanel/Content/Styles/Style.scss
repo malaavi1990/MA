@@ -1,0 +1,109 @@
+﻿/*** Font Face ********************************************/
+@font-face {
+    font-family: 'IranSans';
+    src: url('/Content/Fonts/IRANSansWeb.eot');
+    src: url('/Content/Fonts/IRANSansWeb.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('/Content/Fonts/IRANSansWeb.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('/Content/Fonts/IRANSansWeb.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('/Content/Fonts/IRANSansWeb.ttf') format('truetype');
+}
+
+
+
+
+$firstColor: #000;
+$secondColor: #fff;
+$thirdColor: #5b32b4;
+$firstBackColor: #fff;
+$secondBackColor: #f1f1f1;
+$firstBackColor: #5b32b4;
+/*** Deault Valus *****************************************/
+html {
+    direction: rtl;
+
+    body {
+        * {
+            direction: rtl;
+            font-family: IranSans;
+        }
+
+        a {
+            color: $firstColor;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        h1, h2, h3, h4, h5, h6, p, span, a, div, ul, li {
+            direction: rtl;
+            text-align: right;
+            font-family: IranSans;
+        }
+    }
+}
+
+
+
+/*** Header ***********************************************/
+header {
+    background-color: $secondBackColor;
+    padding: 20px 0;
+
+    .logo {
+        a {
+            img {
+                width: 50%;
+            }
+        }
+    }
+
+    .top-menu {
+        ul {
+            padding-top:20px;
+            li {
+                padding: 0 17px;
+
+                a {
+                    color: $firstColor;
+                    font-size: 18px;
+                    i{
+                        font-size:16px;
+                        margin-right:3px;
+                        color:#444;
+                    }
+                }
+            }
+        }
+    }
+
+    .top-search {
+        padding-top:20PX;
+        a {
+            i {
+                color: $firstColor;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+
+/*** Banner ***********************************************/
+
+
+/*** About Us *********************************************/
+
+
+/*** Services *********************************************/
+
+
+/*** Members **********************************************/
+
+
+/*** Product **********************************************/
+/*** Team *************************************************/
+/*** News *************************************************/
+/*** Footer ***********************************************/
+/*** Footer ***********************************************/
+/*** Footer ***********************************************/

@@ -10,7 +10,7 @@ namespace MaPanel
             // Styles
             bundles.Add(new StyleBundle("~/Content/Styles").Include(
                       "~/Content/Styles/bootstrap.min.css",
-                      "~/Content/Styles/site.css"));
+                      "~/Content/Styles/Style.css"));
 
             // Scripts
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(

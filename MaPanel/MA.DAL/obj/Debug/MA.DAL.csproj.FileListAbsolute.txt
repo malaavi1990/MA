@@ -1,2 +1,16 @@
 E:\MA PROJECTS\MAIN\MaPanel\MA.DAL\obj\Debug\MA.DAL.csprojAssemblyReference.cache
 E:\MA PROJECTS\MAIN\MaPanel\MA.DAL\obj\Debug\MA.DAL.csproj.CoreCompileInputs.cache
+E:\MA PROJECTS\MAIN\MaPanel\MA.DAL\bin\Debug\MA.DAL.dll.config
+E:\MA PROJECTS\MAIN\MaPanel\MA.DAL\bin\Debug\MA.DAL.dll
+E:\MA PROJECTS\MAIN\MaPanel\MA.DAL\bin\Debug\MA.DAL.pdb
+E:\MA PROJECTS\MAIN\MaPanel\MA.DAL\bin\Debug\EntityFramework.dll
+E:\MA PROJECTS\MAIN\MaPanel\MA.DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\MA PROJECTS\MAIN\MaPanel\MA.DAL\bin\Debug\MA.Domain.dll
+E:\MA PROJECTS\MAIN\MaPanel\MA.DAL\bin\Debug\MA.Domain.pdb
+E:\MA PROJECTS\MAIN\MaPanel\MA.DAL\bin\Debug\EntityFramework.xml
+E:\MA PROJECTS\MAIN\MaPanel\MA.DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\MA PROJECTS\MAIN\MaPanel\MA.DAL\obj\Debug\MA.DAL.csproj.CopyComplete
+E:\MA PROJECTS\MAIN\MaPanel\MA.DAL\obj\Debug\MA.DAL.dll
+E:\MA PROJECTS\MAIN\MaPanel\MA.DAL\obj\Debug\MA.DAL.pdb
+E:\MA PROJECTS\MAIN\MaPanel\MA.DAL\obj\Debug\MA.DAL.Migrations.CreateDatabase.resources
+E:\MA PROJECTS\MAIN\MaPanel\MA.DAL\obj\Debug\MA.DAL.csproj.GenerateResource.cache

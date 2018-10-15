@@ -1,5 +1,6 @@
 ﻿using MA.Domain;
 using System.Data.Entity;
+using MA.DAL.Configurations;
 
 namespace MA.DAL.UnitOfWork
 {
@@ -7,7 +8,9 @@ namespace MA.DAL.UnitOfWork
     {
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            
+            // Configurations
+            modelBuilder.Configurations.Add(new UserConfig());
+            modelBuilder.Configurations.Add(new RoleConfig());
         }
 
 

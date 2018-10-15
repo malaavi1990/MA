@@ -95,3 +95,12 @@ E:\MA PROJECTS\MAIN\MaPanel\MaPanel\obj\Debug\MA.MVC.csproj.CoreCompileInputs.ca
 E:\MA PROJECTS\MAIN\MaPanel\MaPanel\obj\Debug\MA.MVC.csproj.CopyComplete
 E:\MA PROJECTS\MAIN\MaPanel\MaPanel\obj\Debug\MaPanel.dll
 E:\MA PROJECTS\MAIN\MaPanel\MaPanel\obj\Debug\MaPanel.pdb
+E:\MA PROJECTS\MAIN\MaPanel\MaPanel\bin\MA.DAL.dll
+E:\MA PROJECTS\MAIN\MaPanel\MaPanel\bin\MA.Domain.dll
+E:\MA PROJECTS\MAIN\MaPanel\MaPanel\bin\EntityFramework.dll
+E:\MA PROJECTS\MAIN\MaPanel\MaPanel\bin\MA.DAL.pdb
+E:\MA PROJECTS\MAIN\MaPanel\MaPanel\bin\MA.DAL.dll.config
+E:\MA PROJECTS\MAIN\MaPanel\MaPanel\bin\MA.Domain.pdb
+E:\MA PROJECTS\MAIN\MaPanel\MaPanel\bin\EntityFramework.xml
+E:\MA PROJECTS\MAIN\MaPanel\MaPanel\bin\EntityFramework.SqlServer.dll
+E:\MA PROJECTS\MAIN\MaPanel\MaPanel\bin\EntityFramework.SqlServer.xml

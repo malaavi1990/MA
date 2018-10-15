@@ -1,0 +1,55 @@
+/*** Font Face ********************************************/
+@font-face {
+  font-family: 'IranSans';
+  src: url("/Content/Fonts/IRANSansWeb.eot");
+  src: url("/Content/Fonts/IRANSansWeb.eot?#iefix") format("embedded-opentype"), url("/Content/Fonts/IRANSansWeb.woff2") format("woff2"), url("/Content/Fonts/IRANSansWeb.woff") format("woff"), url("/Content/Fonts/IRANSansWeb.ttf") format("truetype"); }
+/*** Deault Valus *****************************************/
+html {
+  direction: rtl; }
+  html body * {
+    direction: rtl;
+    font-family: IranSans; }
+  html body a {
+    color: #000; }
+    html body a:hover {
+      text-decoration: none; }
+  html body h1, html body h2, html body h3, html body h4, html body h5, html body h6, html body p, html body span, html body a, html body div, html body ul, html body li {
+    direction: rtl;
+    text-align: right;
+    font-family: IranSans; }
+
+/*** Header ***********************************************/
+header {
+  background-color: #f1f1f1;
+  padding: 20px 0; }
+  header .logo a img {
+    width: 50%; }
+  header .top-menu ul {
+    padding-top: 20px; }
+    header .top-menu ul li {
+      padding: 0 17px; }
+      header .top-menu ul li a {
+        color: #000;
+        font-size: 18px; }
+        header .top-menu ul li a i {
+          font-size: 16px;
+          margin-right: 3px;
+          color: #444; }
+  header .top-search {
+    padding-top: 20PX; }
+    header .top-search a i {
+      color: #000;
+      font-size: 20px; }
+
+/*** Banner ***********************************************/
+/*** About Us *********************************************/
+/*** Services *********************************************/
+/*** Members **********************************************/
+/*** Product **********************************************/
+/*** Team *************************************************/
+/*** News *************************************************/
+/*** Footer ***********************************************/
+/*** Footer ***********************************************/
+/*** Footer ***********************************************/
+
+/*# sourceMappingURL=Style.css.map */
