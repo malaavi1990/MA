@@ -8,15 +8,14 @@
     url('/Content/Fonts/IRANSansWeb.ttf') format('truetype');
 }
 
-
-
-
+/*** Variable *********************************************/
 $firstColor: #000;
 $secondColor: #fff;
 $thirdColor: #5b32b4;
 $firstBackColor: #fff;
 $secondBackColor: #f1f1f1;
 $firstBackColor: #5b32b4;
+
 /*** Deault Valus *****************************************/
 html {
     direction: rtl;
@@ -42,8 +41,6 @@ html {
         }
     }
 }
-
-
 
 /*** Header ***********************************************/
 header {
@@ -87,7 +84,6 @@ header {
         }
     }
 }
-
 
 /*** Banner ***********************************************/
 

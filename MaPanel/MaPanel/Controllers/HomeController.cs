@@ -1,10 +1,4 @@
-﻿using MA.DAL.UnitOfWork;
-using MA.Domain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 namespace MaPanel.Controllers
 {

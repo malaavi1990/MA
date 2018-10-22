@@ -149,11 +149,19 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\UsersController.cs" />
+    <Compile Include="Areas\UserPanel\Controllers\HomeController.cs" />
+    <Compile Include="Areas\UserPanel\UserPanelAreaRegistration.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ManageEmailController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\PartialToString.cs" />
+    <Compile Include="Utilities\RoleProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Images\logo.png" />
@@ -189,6 +197,15 @@
     <Content Include="Content\Fonts\IRANSansWeb.ttf" />
     <Content Include="Content\Fonts\IRANSansWeb.woff" />
     <Content Include="Content\Fonts\IRANSansWeb.woff2" />
+    <Content Include="Areas\UserPanel\Views\web.config" />
+    <Content Include="Areas\UserPanel\Views\Home\Index.cshtml" />
+    <Content Include="Areas\UserPanel\Views\Home\ChangePassword.cshtml" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\UserPanel\Views\Home\EditProfile.cshtml" />
+    <Content Include="Areas\Admin\Views\Users\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Users\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\Users\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Users\Index.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -217,7 +234,6 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\umd\popper.min.js.map" />
@@ -229,9 +245,20 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Shared\Notification.cshtml" />
+    <Content Include="Views\Account\ForgotPassword.cshtml" />
+    <Content Include="Views\Account\ResetPassword.cshtml" />
+    <Content Include="Views\ManageEmail\ActiveUser.cshtml" />
+    <Content Include="Views\ManageEmail\ForgotPassword.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\Views\Shared\" />
+    <Folder Include="Areas\UserPanel\Models\" />
+    <Folder Include="Areas\UserPanel\Views\Shared\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -246,13 +273,25 @@
     <TypeScriptCompile Include="Scripts\index.d.ts" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MA.Business\MA.Business.csproj">
+      <Project>{36473c36-4c5b-462c-b747-17244048795c}</Project>
+      <Name>MA.Business</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MA.DAL\MA.DAL.csproj">
-      <Project>{844EA663-FE4C-4037-9E0D-E5BBC37F6D3B}</Project>
+      <Project>{844ea663-fe4c-4037-9e0d-e5bbc37f6d3b}</Project>
       <Name>MA.DAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\MA.Domain\MA.Domain.csproj">
       <Project>{F31F55BA-26A3-488D-9395-EF49F7FC97C5}</Project>
       <Name>MA.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MA.Utility\MA.Utility.csproj">
+      <Project>{F52433C6-5693-49F0-B2B9-591D42C382CC}</Project>
+      <Name>MA.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MA.ViewModel\MA.ViewModel.csproj">
+      <Project>{7e1e9f13-4123-4df2-9d2f-7e6db565e423}</Project>
+      <Name>MA.ViewModel</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

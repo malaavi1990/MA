@@ -50,16 +50,86 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\GenericDal.cs" />
+    <Compile Include="Classes\NewsCategoryDal.cs" />
+    <Compile Include="Classes\NewsDal.cs" />
+    <Compile Include="Classes\ProductCategoryDal.cs" />
+    <Compile Include="Classes\ProductDal.cs" />
     <Compile Include="Classes\RoleDal.cs" />
+    <Compile Include="Classes\ServiceDal.cs" />
+    <Compile Include="Classes\SiteSectionDal.cs" />
+    <Compile Include="Classes\SiteSettingDal.cs" />
+    <Compile Include="Classes\SliderDal.cs" />
+    <Compile Include="Classes\TeamDal.cs" />
     <Compile Include="Classes\UserDal.cs" />
     <Compile Include="Configurations\RoleConfig.cs" />
     <Compile Include="Configurations\UserConfig.cs" />
     <Compile Include="Interfaces\IGenericDal.cs" />
+    <Compile Include="Interfaces\INewsCategoryDal.cs" />
+    <Compile Include="Interfaces\INewsDal.cs" />
+    <Compile Include="Interfaces\IProductCategoryDal.cs" />
+    <Compile Include="Interfaces\IProductDal.cs" />
     <Compile Include="Interfaces\IRoleDal.cs" />
+    <Compile Include="Interfaces\IServiceDal.cs" />
+    <Compile Include="Interfaces\ISiteSectionDal.cs" />
+    <Compile Include="Interfaces\ISiteSettingDal.cs" />
+    <Compile Include="Interfaces\ISliderDal.cs" />
+    <Compile Include="Interfaces\ITeamDal.cs" />
     <Compile Include="Interfaces\IUserDal.cs" />
-    <Compile Include="Migrations\201810141427512_CreateDatabase.cs" />
-    <Compile Include="Migrations\201810141427512_CreateDatabase.Designer.cs">
-      <DependentUpon>201810141427512_CreateDatabase.cs</DependentUpon>
+    <Compile Include="Migrations\201810152138419_Create.cs" />
+    <Compile Include="Migrations\201810152138419_Create.Designer.cs">
+      <DependentUpon>201810152138419_Create.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810170738441_mig1.cs" />
+    <Compile Include="Migrations\201810170738441_mig1.Designer.cs">
+      <DependentUpon>201810170738441_mig1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810170743183_mig2.cs" />
+    <Compile Include="Migrations\201810170743183_mig2.Designer.cs">
+      <DependentUpon>201810170743183_mig2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810170809006_mig3.cs" />
+    <Compile Include="Migrations\201810170809006_mig3.Designer.cs">
+      <DependentUpon>201810170809006_mig3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810170832102_mig4.cs" />
+    <Compile Include="Migrations\201810170832102_mig4.Designer.cs">
+      <DependentUpon>201810170832102_mig4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810170853599_mig5.cs" />
+    <Compile Include="Migrations\201810170853599_mig5.Designer.cs">
+      <DependentUpon>201810170853599_mig5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810201121189_mig10.cs" />
+    <Compile Include="Migrations\201810201121189_mig10.Designer.cs">
+      <DependentUpon>201810201121189_mig10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810201244316_mig11.cs" />
+    <Compile Include="Migrations\201810201244316_mig11.Designer.cs">
+      <DependentUpon>201810201244316_mig11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810201321182_mig12.cs" />
+    <Compile Include="Migrations\201810201321182_mig12.Designer.cs">
+      <DependentUpon>201810201321182_mig12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810201329239_mig13.cs" />
+    <Compile Include="Migrations\201810201329239_mig13.Designer.cs">
+      <DependentUpon>201810201329239_mig13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810201335598_mig14.cs" />
+    <Compile Include="Migrations\201810201335598_mig14.Designer.cs">
+      <DependentUpon>201810201335598_mig14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810201357308_mig15.cs" />
+    <Compile Include="Migrations\201810201357308_mig15.Designer.cs">
+      <DependentUpon>201810201357308_mig15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810210909390_mig20.cs" />
+    <Compile Include="Migrations\201810210909390_mig20.Designer.cs">
+      <DependentUpon>201810210909390_mig20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810220721212_mig21.cs" />
+    <Compile Include="Migrations\201810220721212_mig21.Designer.cs">
+      <DependentUpon>201810220721212_mig21.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -82,8 +152,47 @@
     <Folder Include="Seeds\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201810141427512_CreateDatabase.resx">
-      <DependentUpon>201810141427512_CreateDatabase.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201810152138419_Create.resx">
+      <DependentUpon>201810152138419_Create.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810170738441_mig1.resx">
+      <DependentUpon>201810170738441_mig1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810170743183_mig2.resx">
+      <DependentUpon>201810170743183_mig2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810170809006_mig3.resx">
+      <DependentUpon>201810170809006_mig3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810170832102_mig4.resx">
+      <DependentUpon>201810170832102_mig4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810170853599_mig5.resx">
+      <DependentUpon>201810170853599_mig5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810201121189_mig10.resx">
+      <DependentUpon>201810201121189_mig10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810201244316_mig11.resx">
+      <DependentUpon>201810201244316_mig11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810201321182_mig12.resx">
+      <DependentUpon>201810201321182_mig12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810201329239_mig13.resx">
+      <DependentUpon>201810201329239_mig13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810201335598_mig14.resx">
+      <DependentUpon>201810201335598_mig14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810201357308_mig15.resx">
+      <DependentUpon>201810201357308_mig15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810210909390_mig20.resx">
+      <DependentUpon>201810210909390_mig20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810220721212_mig21.resx">
+      <DependentUpon>201810220721212_mig21.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

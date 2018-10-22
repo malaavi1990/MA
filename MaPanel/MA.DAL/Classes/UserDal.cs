@@ -1,4 +1,5 @@
 ﻿using System.Data.Entity;
+using System.Linq;
 using MA.DAL.Interfaces;
 using MA.DAL.UnitOfWork;
 using MA.Domain;
@@ -14,5 +15,21 @@ namespace MA.DAL.Classes
             _context = context;
             _users = context.Set<User>();
         }
+
+        public User GetByEmail(string email)
+        {
+            return _users.SingleOrDefault(u => u.Email == email);
+        }
+
+        public User GetByActiveCode(string id)
+        {
+            return _users.SingleOrDefault(u => u.ActiveCode == id);
+        }
+
+        public string[] GetRoleByEmail(string email)
+        {
+            return _users.Where(u => u.Email == email).Select(u => u.Role.RoleName).ToArray();
+        }
+
     }
 }

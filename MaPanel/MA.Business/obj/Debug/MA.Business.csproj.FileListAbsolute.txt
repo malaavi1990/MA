@@ -4,3 +4,15 @@ E:\MA PROJECTS\MAIN\MaPanel\MA.Business\obj\Debug\MA.Business.csprojAssemblyRefe
 E:\MA PROJECTS\MAIN\MaPanel\MA.Business\obj\Debug\MA.Business.csproj.CoreCompileInputs.cache
 E:\MA PROJECTS\MAIN\MaPanel\MA.Business\obj\Debug\MA.Business.dll
 E:\MA PROJECTS\MAIN\MaPanel\MA.Business\obj\Debug\MA.Business.pdb
+E:\MA PROJECTS\MAIN\MaPanel\MA.Business\bin\Debug\MA.DAL.dll
+E:\MA PROJECTS\MAIN\MaPanel\MA.Business\bin\Debug\MA.Domain.dll
+E:\MA PROJECTS\MAIN\MaPanel\MA.Business\bin\Debug\MA.Utility.dll
+E:\MA PROJECTS\MAIN\MaPanel\MA.Business\bin\Debug\MA.ViewModel.dll
+E:\MA PROJECTS\MAIN\MaPanel\MA.Business\bin\Debug\EntityFramework.dll
+E:\MA PROJECTS\MAIN\MaPanel\MA.Business\bin\Debug\MA.DAL.pdb
+E:\MA PROJECTS\MAIN\MaPanel\MA.Business\bin\Debug\MA.DAL.dll.config
+E:\MA PROJECTS\MAIN\MaPanel\MA.Business\bin\Debug\MA.Domain.pdb
+E:\MA PROJECTS\MAIN\MaPanel\MA.Business\bin\Debug\MA.Utility.pdb
+E:\MA PROJECTS\MAIN\MaPanel\MA.Business\bin\Debug\MA.ViewModel.pdb
+E:\MA PROJECTS\MAIN\MaPanel\MA.Business\bin\Debug\EntityFramework.xml
+E:\MA PROJECTS\MAIN\MaPanel\MA.Business\obj\Debug\MA.Business.csproj.CopyComplete

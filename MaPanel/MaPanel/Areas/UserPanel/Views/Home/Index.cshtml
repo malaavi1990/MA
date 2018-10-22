@@ -1,0 +1,35 @@
+﻿@model MA.Domain.User
+@{
+    ViewBag.Title = "‍‍‍‍‍‍پنل کاربری";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <ul class="list-unstyled">
+        <li>
+            <span>نام و نام خانوادگی : </span>@Model.FirstName
+        </li>
+        <li>
+            <span>کد ملی : </span>@Model.NationalCode
+        </li>
+        <li>
+            <span>ایمیل : </span>@Model.Email
+        </li>
+        <li>
+            <span>تاریخ تولد : </span>@Model.BirthDate
+        </li>
+        <li>
+            <span>آدرس : </span>@Model.Country - @Model.State - @Model.City - @Model.Address
+        </li>
+        <li>
+            <span>کد پستی : </span>@Model.PostalCode
+        </li>
+        <li>
+            <span>تلفن همراه : </span>@Model.MobileNumber
+        </li>
+    </ul>
+
+    @Html.ActionLink("ویرایش اطلاعات", "EditProfile", new { id = Model.UserId })
+    @Html.ActionLink("تغییر رمز عبور", "ChangePassword", new { id = Model.UserId })
+</div>
+

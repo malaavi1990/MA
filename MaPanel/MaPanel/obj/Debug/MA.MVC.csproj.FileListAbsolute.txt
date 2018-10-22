@@ -104,3 +104,9 @@ E:\MA PROJECTS\MAIN\MaPanel\MaPanel\bin\MA.Domain.pdb
 E:\MA PROJECTS\MAIN\MaPanel\MaPanel\bin\EntityFramework.xml
 E:\MA PROJECTS\MAIN\MaPanel\MaPanel\bin\EntityFramework.SqlServer.dll
 E:\MA PROJECTS\MAIN\MaPanel\MaPanel\bin\EntityFramework.SqlServer.xml
+E:\MA PROJECTS\MAIN\MaPanel\MaPanel\bin\MA.Business.dll
+E:\MA PROJECTS\MAIN\MaPanel\MaPanel\bin\MA.ViewModel.dll
+E:\MA PROJECTS\MAIN\MaPanel\MaPanel\bin\MA.Business.pdb
+E:\MA PROJECTS\MAIN\MaPanel\MaPanel\bin\MA.ViewModel.pdb
+E:\MA PROJECTS\MAIN\MaPanel\MaPanel\bin\MA.Utility.dll
+E:\MA PROJECTS\MAIN\MaPanel\MaPanel\bin\MA.Utility.pdb

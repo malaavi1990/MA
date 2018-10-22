@@ -33,6 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,7 +42,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\RoleBusiness.cs" />
+    <Compile Include="Classes\UserBusiness.cs" />
+    <Compile Include="Interfaces\IRoleBusiness.cs" />
+    <Compile Include="Interfaces\IUserBusiness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MA.DAL\MA.DAL.csproj">
+      <Project>{844ea663-fe4c-4037-9e0d-e5bbc37f6d3b}</Project>
+      <Name>MA.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MA.Domain\MA.Domain.csproj">
+      <Project>{f31f55ba-26a3-488d-9395-ef49f7fc97c5}</Project>
+      <Name>MA.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MA.Utility\MA.Utility.csproj">
+      <Project>{f52433c6-5693-49f0-b2b9-591d42c382cc}</Project>
+      <Name>MA.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MA.ViewModel\MA.ViewModel.csproj">
+      <Project>{7e1e9f13-4123-4df2-9d2f-7e6db565e423}</Project>
+      <Name>MA.ViewModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
